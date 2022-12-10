@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Bienvenue !{% endblock %}
+
+{% block javascript %}
+<script type="text/javascript" >
+function init()
+    {
+    }
+</script>
+{% endblock %}
+
+{% block content %}
+
+<div class="BlueFrame">
+<h2>Sommaire
+<ul>
+  <li><a href="{% url 'tab_legumes' %}">Tableau  des légumes, espèces et variétés</a></li>
+  <li><a href="{% url 'quiz_familles' %}">Quiz Familles et Variétés</a></li>
+  <li><a href="{% url 'creation_planches' %}">Création des planches</a></li>
+  <li><a href="{% url 'recolte' %}">Prévision de récolte</a></li>
+  <li><a href="{% url 'evenements' %}">Liste des évenements</a></li>
+  <li><a href="{% url 'suivi_implantations' %}">Suivi des séries et implantations dans le temps</a></li>
+  <li><a href="{% url 'utilisation_planches' %}">Suivi de l'occupation des planches dans le temps</a></li>
+  <li><a href="{% url 'suivi_plants' %}">Suivi des plants dans la serre à plants</a></li>
+  <li><a href="../admin">Admin</a></li>
+</ul>
+</h2>	    
+
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,2051 @@
+BEGIN:VCALENDAR
+PRODID:-//Mozilla.org/NONSGML Mozilla Calendar V1.1//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:mottes epinard géant d'hiver
+DESCRIPTION:270 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20181112T080000
+DTEND;TZID=Europe/Paris:20181112T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage epinard géant d'hiver
+DESCRIPTION:Nb planches : 0.51 (61 m).Tous les 25 cm sur 4 rangs (sous serre). Rem : 2 gr/motte pour etre sûr d'avoir un plant. Repiquage sur bache 4x25. A CALER SELON RECOLTE FEUILLE A FEUILLE
+DTSTART;TZID=Europe/Paris:20190101T080000
+DTEND;TZID=Europe/Paris:20190101T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose de 18 jours
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190108T080000
+DTEND;TZID=Europe/Paris:20190108T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes roquette cultivée
+DESCRIPTION:222 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20181231T080000
+DTEND;TZID=Europe/Paris:20181231T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage roquette cultivée
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190110T080000
+DTEND;TZID=Europe/Paris:20190110T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis carotte primeur napoli f1
+DESCRIPTION:Nb planches : 0.40 (60 m).Tous les 4 cm sur 5 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190115T080000
+DTEND;TZID=Europe/Paris:20190115T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes mizuna verte
+DESCRIPTION:222 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20181231T080000
+DTEND;TZID=Europe/Paris:20181231T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage mizuna verte
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 2 coupes par série.
+DTSTART;TZID=Europe/Paris:20190115T080000
+DTEND;TZID=Europe/Paris:20190115T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis pdt primeur rubis
+DESCRIPTION:Nb planches : 2.00 (120 m).Tous les 30 cm sur 2 rangs (sous serre). Rem : 8°C min 28/35
+DTSTART;TZID=Europe/Paris:20190120T080000
+DTEND;TZID=Europe/Paris:20190120T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose pernot clair
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190123T080000
+DTEND;TZID=Europe/Paris:20190123T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes mâche verte de cambrai
+DESCRIPTION:250 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20181206T080000
+DTEND;TZID=Europe/Paris:20181206T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage mâche verte de cambrai
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190125T080000
+DTEND;TZID=Europe/Paris:20190125T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue rosalie
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20181222T080000
+DTEND;TZID=Europe/Paris:20181222T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue rosalie
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190205T080000
+DTEND;TZID=Europe/Paris:20190205T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose gaudry2
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190208T080000
+DTEND;TZID=Europe/Paris:20190208T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis pois mangetout ambosia
+DESCRIPTION:Nb planches : 1.43 (128 m).Tous les 3 cm sur 3 rangs (sous serre). Rem : ajout pois mangetout ste marthe car il en manquait 20m. Suite à semis sans poquet.
+DTSTART;TZID=Europe/Paris:20190210T080000
+DTEND;TZID=Europe/Paris:20190210T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou rave azur star
+DESCRIPTION:43 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190111T080000
+DTEND;TZID=Europe/Paris:20190111T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou rave azur star
+DESCRIPTION:Nb planches : 0.10 (12 m).Tous les 30 cm sur 4 rangs (sous serre). Rem : violet
+DTSTART;TZID=Europe/Paris:20190215T080000
+DTEND;TZID=Europe/Paris:20190215T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes mizuna verte
+DESCRIPTION:222 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190131T080000
+DTEND;TZID=Europe/Paris:20190131T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage mizuna verte
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 2 coupes par série.
+DTSTART;TZID=Europe/Paris:20190215T080000
+DTEND;TZID=Europe/Paris:20190215T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis navet rose plat de milan
+DESCRIPTION:Nb planches : 0.33 (60 m).Tous les 5 cm sur 6 rangs (sous serre). Rem : semoir XY12
+DTSTART;TZID=Europe/Paris:20190215T080000
+DTEND;TZID=Europe/Paris:20190215T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes blette verte à carde blanche berac
+DESCRIPTION:135 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190111T080000
+DTEND;TZID=Europe/Paris:20190111T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage blette verte à carde blanche berac
+DESCRIPTION:Nb planches : 0.54 (49 m).Tous les 40 cm sur 3 rangs (sous serre). Rem : glomerule, eclaircir apres premier developpement à 1 plante par motte
+DTSTART;TZID=Europe/Paris:20190220T080000
+DTEND;TZID=Europe/Paris:20190220T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue merveille d'hiver
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190111T080000
+DTEND;TZID=Europe/Paris:20190111T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue merveille d'hiver
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (sous serre). Rem : Faire 105 mottes 15 lignes de 7
+DTSTART;TZID=Europe/Paris:20190220T080000
+DTEND;TZID=Europe/Paris:20190220T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes fenouil wadenromen
+DESCRIPTION:43 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190123T080000
+DTEND;TZID=Europe/Paris:20190123T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage fenouil wadenromen
+DESCRIPTION:Nb planches : 0.08 (10 m).Tous les 25 cm sur 4 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190222T080000
+DTEND;TZID=Europe/Paris:20190222T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose de 18 jours
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190223T080000
+DTEND;TZID=Europe/Paris:20190223T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis fèves hangdown grünkernig
+DESCRIPTION:Nb planches : 0.58 (35 m).Tous les 12 cm sur 2 rangs (en plein champ). Rem : à butter . Prevu le 15/2 initialement. 
+DTSTART;TZID=Europe/Paris:20190226T080000
+DTEND;TZID=Europe/Paris:20190226T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue reine de mai
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190130T080000
+DTEND;TZID=Europe/Paris:20190130T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue reine de mai
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190301T080000
+DTEND;TZID=Europe/Paris:20190301T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis pois a écosser douce provence
+DESCRIPTION:Nb planches : 1.43 (128 m).Tous les 3 cm sur 3 rangs (en plein champ). Rem : A butter donc pas sur bache
+DTSTART;TZID=Europe/Paris:20190301T080000
+DTEND;TZID=Europe/Paris:20190301T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose gaudry2
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190308T080000
+DTEND;TZID=Europe/Paris:20190308T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis haricot rames cobra
+DESCRIPTION:Nb planches : 0.38 (23 m).Tous les 10 cm sur 2 rangs (sous serre). Rem : >=12°C
+DTSTART;TZID=Europe/Paris:20190310T080000
+DTEND;TZID=Europe/Paris:20190310T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis haricot rame cobra
+DESCRIPTION:Nb planches : 0.38 (23 m).Tous les 10 cm sur 2 rangs (sous serre). Rem : >=12°C ; couleur violette
+DTSTART;TZID=Europe/Paris:20190310T080000
+DTEND;TZID=Europe/Paris:20190310T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue merveille d'hiver
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190217T080000
+DTEND;TZID=Europe/Paris:20190217T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue merveille d'hiver
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190315T080000
+DTEND;TZID=Europe/Paris:20190315T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis pdt saison rubis
+DESCRIPTION:Nb planches : 3.00 (180 m).Tous les 35 cm sur 2 rangs (en plein champ). Rem : 8°C min 28/35
+DTSTART;TZID=Europe/Paris:20190315T080000
+DTEND;TZID=Europe/Paris:20190315T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose pernot clair
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190315T080000
+DTEND;TZID=Europe/Paris:20190315T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou chinois kaboko f1
+DESCRIPTION:78 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190218T080000
+DTEND;TZID=Europe/Paris:20190218T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou chinois kaboko f1
+DESCRIPTION:Nb planches : 0.31 (28 m).Tous les 40 cm sur 3 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190320T080000
+DTEND;TZID=Europe/Paris:20190320T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis navet rose plat de milan
+DESCRIPTION:Nb planches : 0.42 (75 m).Tous les 5 cm sur 6 rangs (sous serre). Rem : à voir si en serre
+DTSTART;TZID=Europe/Paris:20190320T080000
+DTEND;TZID=Europe/Paris:20190320T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes courgette partenon f1
+DESCRIPTION:33 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190227T080000
+DTEND;TZID=Europe/Paris:20190227T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage courgette partenon f1
+DESCRIPTION:Nb planches : 1.00 (30 m).Tous les 100 cm sur 1 rangs (sous serre). Rem : partenocarpique, 18°C min
+DTSTART;TZID=Europe/Paris:20190324T080000
+DTEND;TZID=Europe/Paris:20190324T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose gaudry2
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190329T080000
+DTEND;TZID=Europe/Paris:20190329T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes tomate précoce de quimper
+DESCRIPTION:32 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190204T080000
+DTEND;TZID=Europe/Paris:20190204T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage tomate précoce de quimper
+DESCRIPTION:Nb planches : 0.25 (15 m).Tous les 50 cm sur 2 rangs (sous serre). Rem : terrine puis rempotage dans grosses alvéoles
+DTSTART;TZID=Europe/Paris:20190331T080000
+DTEND;TZID=Europe/Paris:20190331T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes tomate glacier
+DESCRIPTION:32 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190204T080000
+DTEND;TZID=Europe/Paris:20190204T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage tomate glacier
+DESCRIPTION:Nb planches : 0.25 (15 m).Tous les 50 cm sur 2 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190331T080000
+DTEND;TZID=Europe/Paris:20190331T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis echalote longor
+DESCRIPTION:Nb planches : 0.67 (120 m).Tous les 15 cm sur 6 rangs (en plein champ). Rem : Bulbilles. 80 plants/kg. Cendrer avant : ph 6,2 mini
+DTSTART;TZID=Europe/Paris:20190401T080000
+DTEND;TZID=Europe/Paris:20190401T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue merveille des 4 saisons
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190307T080000
+DTEND;TZID=Europe/Paris:20190307T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue merveille des 4 saisons
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190401T080000
+DTEND;TZID=Europe/Paris:20190401T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose pernot clair
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190406T080000
+DTEND;TZID=Europe/Paris:20190406T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis panais aromata
+DESCRIPTION:Nb planches : 1.82 (218 m).Tous les 6 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190408T080000
+DTEND;TZID=Europe/Paris:20190408T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes ciboulette commune
+DESCRIPTION:253 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190311T080000
+DTEND;TZID=Europe/Paris:20190311T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage ciboulette commune
+DESCRIPTION:Nb planches : 0.50 (60 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190410T080000
+DTEND;TZID=Europe/Paris:20190410T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes concombre diapason f1
+DESCRIPTION:19 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190306T080000
+DTEND;TZID=Europe/Paris:20190306T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage concombre diapason f1
+DESCRIPTION:Nb planches : 0.33 (10 m).Tous les 60 cm sur 1 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190410T080000
+DTEND;TZID=Europe/Paris:20190410T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes concombre lemon
+DESCRIPTION:9 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190306T080000
+DTEND;TZID=Europe/Paris:20190306T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage concombre lemon
+DESCRIPTION:Nb planches : 0.17 (5 m).Tous les 60 cm sur 1 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190410T080000
+DTEND;TZID=Europe/Paris:20190410T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes concombre rollison's telepraph
+DESCRIPTION:28 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190306T080000
+DTEND;TZID=Europe/Paris:20190306T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage concombre rollison's telepraph
+DESCRIPTION:Nb planches : 0.50 (15 m).Tous les 60 cm sur 1 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190410T080000
+DTEND;TZID=Europe/Paris:20190410T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes tomate coeur de bœuf coralina f1
+DESCRIPTION:32 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190209T080000
+DTEND;TZID=Europe/Paris:20190209T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage tomate coeur de bœuf coralina f1
+DESCRIPTION:Nb planches : 0.25 (15 m).Tous les 50 cm sur 2 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190410T080000
+DTEND;TZID=Europe/Paris:20190410T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes tomate black zébra
+DESCRIPTION:21 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190209T080000
+DTEND;TZID=Europe/Paris:20190209T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage tomate black zébra
+DESCRIPTION:Nb planches : 0.17 (10 m).Tous les 50 cm sur 2 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190410T080000
+DTEND;TZID=Europe/Paris:20190410T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes tomate rose de berne
+DESCRIPTION:42 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190209T080000
+DTEND;TZID=Europe/Paris:20190209T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage tomate rose de berne
+DESCRIPTION:Nb planches : 0.33 (20 m).Tous les 50 cm sur 2 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190410T080000
+DTEND;TZID=Europe/Paris:20190410T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes tomate andine des fontenelles
+DESCRIPTION:32 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190219T080000
+DTEND;TZID=Europe/Paris:20190219T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage tomate andine des fontenelles
+DESCRIPTION:Nb planches : 0.25 (15 m).Tous les 50 cm sur 2 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190410T080000
+DTEND;TZID=Europe/Paris:20190410T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes tomate saint pierre
+DESCRIPTION:32 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190219T080000
+DTEND;TZID=Europe/Paris:20190219T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage tomate saint pierre
+DESCRIPTION:Nb planches : 0.25 (15 m).Tous les 50 cm sur 2 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190410T080000
+DTEND;TZID=Europe/Paris:20190410T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes tomate joie de la table
+DESCRIPTION:32 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190219T080000
+DTEND;TZID=Europe/Paris:20190219T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage tomate joie de la table
+DESCRIPTION:Nb planches : 0.25 (15 m).Tous les 50 cm sur 2 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190410T080000
+DTEND;TZID=Europe/Paris:20190410T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose de 18 jours
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190413T080000
+DTEND;TZID=Europe/Paris:20190413T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis ail blanc messidor
+DESCRIPTION:Nb planches : 0.34 (61 m).Tous les 15 cm sur 6 rangs (en plein champ). Rem : ail de conservation. Cendrer avant. 150 plants-cailleux/kg.
+DTSTART;TZID=Europe/Paris:20190415T080000
+DTEND;TZID=Europe/Paris:20190415T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes artichaut imperial star
+DESCRIPTION:97 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190316T080000
+DTEND;TZID=Europe/Paris:20190316T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage artichaut imperial star
+DESCRIPTION:Nb planches : 1.46 (87 m).Tous les 100 cm sur 2 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190415T080000
+DTEND;TZID=Europe/Paris:20190415T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis carotte saison jaune du doubs
+DESCRIPTION:Nb planches : 0.41 (50 m).Tous les 5 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190415T080000
+DTEND;TZID=Europe/Paris:20190415T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue feuille de chêne rouge bawl
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190324T080000
+DTEND;TZID=Europe/Paris:20190324T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue feuille de chêne rouge bawl
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190415T080000
+DTEND;TZID=Europe/Paris:20190415T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis navet rouge plat hatif
+DESCRIPTION:Nb planches : 0.33 (60 m).Tous les 5 cm sur 6 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190415T080000
+DTEND;TZID=Europe/Paris:20190415T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes poivron corno di toro jaune
+DESCRIPTION:55 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190219T080000
+DTEND;TZID=Europe/Paris:20190219T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage poivron corno di toro jaune
+DESCRIPTION:Nb planches : 0.41 (25 m).Tous les 50 cm sur 2 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190415T080000
+DTEND;TZID=Europe/Paris:20190415T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes poivron corno di toro rouge
+DESCRIPTION:55 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190219T080000
+DTEND;TZID=Europe/Paris:20190219T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage poivron corno di toro rouge
+DESCRIPTION:Nb planches : 0.41 (25 m).Tous les 50 cm sur 2 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190415T080000
+DTEND;TZID=Europe/Paris:20190415T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes poivron rosso duemilla
+DESCRIPTION:16 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190219T080000
+DTEND;TZID=Europe/Paris:20190219T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage poivron rosso duemilla
+DESCRIPTION:Nb planches : 0.12 (7 m).Tous les 50 cm sur 2 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190415T080000
+DTEND;TZID=Europe/Paris:20190415T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes poivron yolo wonder
+DESCRIPTION:55 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190219T080000
+DTEND;TZID=Europe/Paris:20190219T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage poivron yolo wonder
+DESCRIPTION:Nb planches : 0.41 (25 m).Tous les 50 cm sur 2 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190415T080000
+DTEND;TZID=Europe/Paris:20190415T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis carotte saison colmar à coeur rouge
+DESCRIPTION:Nb planches : 0.41 (50 m).Tous les 5 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190416T080000
+DTEND;TZID=Europe/Paris:20190416T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis carotte saison rothild
+DESCRIPTION:Nb planches : 0.41 (50 m).Tous les 5 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190417T080000
+DTEND;TZID=Europe/Paris:20190417T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes céleri rave monarch
+DESCRIPTION:300 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190219T080000
+DTEND;TZID=Europe/Paris:20190219T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage céleri rave monarch
+DESCRIPTION:Nb planches : 1.00 (90 m).Tous les 40 cm sur 3 rangs (en plein champ). Rem : Terrine 1 mois puis motte de 4cm 1 mois, graine au frigo à 4°C. Pas de plein soleil sur les jeunes plants.
+DTSTART;TZID=Europe/Paris:20190420T080000
+DTEND;TZID=Europe/Paris:20190420T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis oignon de garde red baron
+DESCRIPTION:Nb planches : 1.00 (180 m).Tous les 15 cm sur 6 rangs (en plein champ). Rem : 3 kg Bulbilles. 400/kg
+DTSTART;TZID=Europe/Paris:20190420T080000
+DTEND;TZID=Europe/Paris:20190420T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis oignon de garde jaune sturon
+DESCRIPTION:Nb planches : 3.33 (600 m).Tous les 15 cm sur 6 rangs (en plein champ). Rem : bulbilles 10kg
+DTSTART;TZID=Europe/Paris:20190420T080000
+DTEND;TZID=Europe/Paris:20190420T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose pernot clair
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190420T080000
+DTEND;TZID=Europe/Paris:20190420T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes aubergine black pearl f1
+DESCRIPTION:37 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190306T080000
+DTEND;TZID=Europe/Paris:20190306T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage aubergine black pearl f1
+DESCRIPTION:Nb planches : 0.33 (20 m).Tous les 60 cm sur 2 rangs (sous serre). Rem : 15°C min. pincer au dessus de la 5 eme feuille puis couper au-delà de la deuxieme feuille sur les 2 rameaux. Enlever les gourmands
+DTSTART;TZID=Europe/Paris:20190425T080000
+DTEND;TZID=Europe/Paris:20190425T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes aubergine de barbentane
+DESCRIPTION:19 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190306T080000
+DTEND;TZID=Europe/Paris:20190306T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage aubergine de barbentane
+DESCRIPTION:Nb planches : 0.17 (10 m).Tous les 60 cm sur 2 rangs (sous serre). Rem : si puceron et accarien, bassinage. Insensible au mildiou
+DTSTART;TZID=Europe/Paris:20190425T080000
+DTEND;TZID=Europe/Paris:20190425T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes aubergine luiza
+DESCRIPTION:28 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190306T080000
+DTEND;TZID=Europe/Paris:20190306T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage aubergine luiza
+DESCRIPTION:Nb planches : 0.25 (15 m).Tous les 60 cm sur 2 rangs (sous serre). Rem : si puceron et accarien, bassinage. Insensible au mildiou
+DTSTART;TZID=Europe/Paris:20190425T080000
+DTEND;TZID=Europe/Paris:20190425T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes aubergine dourga blanche
+DESCRIPTION:28 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190306T080000
+DTEND;TZID=Europe/Paris:20190306T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage aubergine dourga blanche
+DESCRIPTION:Nb planches : 0.25 (15 m).Tous les 60 cm sur 2 rangs (sous serre). Rem : si puceron et accarien, bassinage. Insensible au mildiou
+DTSTART;TZID=Europe/Paris:20190425T080000
+DTEND;TZID=Europe/Paris:20190425T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose gaudry2
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190427T080000
+DTEND;TZID=Europe/Paris:20190427T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes basilic larges feuilles
+DESCRIPTION:63 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190401T080000
+DTEND;TZID=Europe/Paris:20190401T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage basilic larges feuilles
+DESCRIPTION:Nb planches : 0.13 (15 m).Tous les 30 cm sur 4 rangs (sous serre). Rem : prendre 0,2g
+DTSTART;TZID=Europe/Paris:20190501T080000
+DTEND;TZID=Europe/Paris:20190501T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes basilic grand vert
+DESCRIPTION:63 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190401T080000
+DTEND;TZID=Europe/Paris:20190401T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage basilic grand vert
+DESCRIPTION:Nb planches : 0.13 (15 m).Tous les 30 cm sur 4 rangs (sous serre). Rem : Prendre 0,5gX2
+DTSTART;TZID=Europe/Paris:20190501T080000
+DTEND;TZID=Europe/Paris:20190501T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes blette charlotte rouge
+DESCRIPTION:135 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190401T080000
+DTEND;TZID=Europe/Paris:20190401T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage blette charlotte rouge
+DESCRIPTION:Nb planches : 0.54 (49 m).Tous les 40 cm sur 3 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190501T080000
+DTEND;TZID=Europe/Paris:20190501T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes blette verte à carde blanche berac
+DESCRIPTION:135 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190401T080000
+DTEND;TZID=Europe/Paris:20190401T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage blette verte à carde blanche berac
+DESCRIPTION:Nb planches : 0.54 (49 m).Tous les 40 cm sur 3 rangs (en plein champ). Rem : >19°€
+DTSTART;TZID=Europe/Paris:20190501T080000
+DTEND;TZID=Europe/Paris:20190501T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes céleri branche tango
+DESCRIPTION:42 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190410T080000
+DTEND;TZID=Europe/Paris:20190410T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage céleri branche tango
+DESCRIPTION:Nb planches : 0.17 (15 m).Tous les 40 cm sur 3 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190501T080000
+DTEND;TZID=Europe/Paris:20190501T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue feuille de chêne blonde bawl verte
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190410T080000
+DTEND;TZID=Europe/Paris:20190410T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue feuille de chêne blonde bawl verte
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190501T080000
+DTEND;TZID=Europe/Paris:20190501T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes persil frisé vert foncé
+DESCRIPTION:133 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190401T080000
+DTEND;TZID=Europe/Paris:20190401T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage persil frisé vert foncé
+DESCRIPTION:Nb planches : 0.25 (30 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : prendre 5g si plus reserve. Pour 1 rg
+DTSTART;TZID=Europe/Paris:20190501T080000
+DTEND;TZID=Europe/Paris:20190501T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes persil commun
+DESCRIPTION:133 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190401T080000
+DTEND;TZID=Europe/Paris:20190401T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage persil commun
+DESCRIPTION:Nb planches : 0.25 (30 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : prendre 5g si plus reserve
+DTSTART;TZID=Europe/Paris:20190501T080000
+DTEND;TZID=Europe/Paris:20190501T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose de 18 jours
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190502T080000
+DTEND;TZID=Europe/Paris:20190502T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes courge bleue de hongrie
+DESCRIPTION:17 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190413T080000
+DTEND;TZID=Europe/Paris:20190413T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage courge bleue de hongrie
+DESCRIPTION:Nb planches : 0.52 (16 m).Tous les 100 cm sur 1 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190508T080000
+DTEND;TZID=Europe/Paris:20190508T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes courge butternut
+DESCRIPTION:17 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190413T080000
+DTEND;TZID=Europe/Paris:20190413T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage courge butternut
+DESCRIPTION:Nb planches : 0.52 (16 m).Tous les 100 cm sur 1 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190508T080000
+DTEND;TZID=Europe/Paris:20190508T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes courge delicata
+DESCRIPTION:17 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190413T080000
+DTEND;TZID=Europe/Paris:20190413T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage courge delicata
+DESCRIPTION:Nb planches : 0.52 (16 m).Tous les 100 cm sur 1 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190508T080000
+DTEND;TZID=Europe/Paris:20190508T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes courge longue de nice
+DESCRIPTION:17 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190413T080000
+DTEND;TZID=Europe/Paris:20190413T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage courge longue de nice
+DESCRIPTION:Nb planches : 0.52 (16 m).Tous les 100 cm sur 1 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190508T080000
+DTEND;TZID=Europe/Paris:20190508T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes courge patidou
+DESCRIPTION:17 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190413T080000
+DTEND;TZID=Europe/Paris:20190413T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage courge patidou
+DESCRIPTION:Nb planches : 0.52 (16 m).Tous les 100 cm sur 1 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190508T080000
+DTEND;TZID=Europe/Paris:20190508T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes courge potimarron red kury
+DESCRIPTION:17 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190413T080000
+DTEND;TZID=Europe/Paris:20190413T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage courge potimarron red kury
+DESCRIPTION:Nb planches : 0.52 (16 m).Tous les 100 cm sur 1 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190508T080000
+DTEND;TZID=Europe/Paris:20190508T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes courge potiron vert kabocha
+DESCRIPTION:17 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190413T080000
+DTEND;TZID=Europe/Paris:20190413T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage courge potiron vert kabocha
+DESCRIPTION:Nb planches : 0.52 (16 m).Tous les 100 cm sur 1 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190508T080000
+DTEND;TZID=Europe/Paris:20190508T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes courge spaghetti
+DESCRIPTION:17 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190413T080000
+DTEND;TZID=Europe/Paris:20190413T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage courge spaghetti
+DESCRIPTION:Nb planches : 0.52 (16 m).Tous les 100 cm sur 1 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190508T080000
+DTEND;TZID=Europe/Paris:20190508T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes courge sucrine du berry
+DESCRIPTION:17 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190413T080000
+DTEND;TZID=Europe/Paris:20190413T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage courge sucrine du berry
+DESCRIPTION:Nb planches : 0.52 (16 m).Tous les 100 cm sur 1 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190508T080000
+DTEND;TZID=Europe/Paris:20190508T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes courge table queen
+DESCRIPTION:17 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190413T080000
+DTEND;TZID=Europe/Paris:20190413T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage courge table queen
+DESCRIPTION:Nb planches : 0.52 (16 m).Tous les 100 cm sur 1 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190508T080000
+DTEND;TZID=Europe/Paris:20190508T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose pernot clair
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190509T080000
+DTEND;TZID=Europe/Paris:20190509T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes coriandre 
+DESCRIPTION:75 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190410T080000
+DTEND;TZID=Europe/Paris:20190410T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage coriandre 
+DESCRIPTION:Nb planches : 0.13 (15 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190510T080000
+DTEND;TZID=Europe/Paris:20190510T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis carotte de garde colmar à coeur rouge
+DESCRIPTION:Nb planches : 1.00 (90 m).Tous les 5 cm sur 3 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190515T080000
+DTEND;TZID=Europe/Paris:20190515T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis carotte de garde gniff rouge
+DESCRIPTION:Nb planches : 1.24 (112 m).Tous les 5 cm sur 3 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190515T080000
+DTEND;TZID=Europe/Paris:20190515T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis carotte de garde nantaise 5
+DESCRIPTION:Nb planches : 1.24 (112 m).Tous les 5 cm sur 3 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190515T080000
+DTEND;TZID=Europe/Paris:20190515T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis carotte de garde rothild
+DESCRIPTION:Nb planches : 1.49 (134 m).Tous les 5 cm sur 3 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190515T080000
+DTEND;TZID=Europe/Paris:20190515T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes céleri branche tall utha
+DESCRIPTION:42 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190424T080000
+DTEND;TZID=Europe/Paris:20190424T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage céleri branche tall utha
+DESCRIPTION:Nb planches : 0.17 (15 m).Tous les 40 cm sur 3 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190515T080000
+DTEND;TZID=Europe/Paris:20190515T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou bruxelles igor f1
+DESCRIPTION:50 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190415T080000
+DTEND;TZID=Europe/Paris:20190415T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou bruxelles igor f1
+DESCRIPTION:Nb planches : 0.33 (20 m).Tous les 50 cm sur 2 rangs (en plein champ). Rem : Semer en pépinière d'Avril à Juin. Repiquer en godet
+DTSTART;TZID=Europe/Paris:20190515T080000
+DTEND;TZID=Europe/Paris:20190515T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes fenouil romanesco
+DESCRIPTION:43 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190424T080000
+DTEND;TZID=Europe/Paris:20190424T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage fenouil romanesco
+DESCRIPTION:Nb planches : 0.08 (10 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190515T080000
+DTEND;TZID=Europe/Paris:20190515T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue sucrine
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190424T080000
+DTEND;TZID=Europe/Paris:20190424T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue sucrine
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190515T080000
+DTEND;TZID=Europe/Paris:20190515T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis maïs doux golden bantam
+DESCRIPTION:Nb planches : 1.00 (120 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190515T080000
+DTEND;TZID=Europe/Paris:20190515T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes melon petit gris de rennes
+DESCRIPTION:86 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190331T080000
+DTEND;TZID=Europe/Paris:20190331T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage melon petit gris de rennes
+DESCRIPTION:Nb planches : 2.59 (78 m).Tous les 100 cm sur 1 rangs (sous serre). Rem : petit gris de rennes pour test mmr dehors
+DTSTART;TZID=Europe/Paris:20190515T080000
+DTEND;TZID=Europe/Paris:20190515T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis pdt de garde mayflower
+DESCRIPTION:Nb planches : 5.67 (340 m).Tous les 35 cm sur 2 rangs (en plein champ). Rem : 8°C min chair ferme 25/35
+DTSTART;TZID=Europe/Paris:20190515T080000
+DTEND;TZID=Europe/Paris:20190515T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis pdt de garde desiree
+DESCRIPTION:Nb planches : 5.50 (330 m).Tous les 35 cm sur 2 rangs (en plein champ). Rem : 8°C min chair fondante 28/35
+DTSTART;TZID=Europe/Paris:20190515T080000
+DTEND;TZID=Europe/Paris:20190515T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes pourpier d'été pourpier doré
+DESCRIPTION:267 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190415T080000
+DTEND;TZID=Europe/Paris:20190415T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage pourpier d'été pourpier doré
+DESCRIPTION:Nb planches : 2.00 (120 m).Tous les 50 cm sur 2 rangs (sous serre). Rem : pas d'arrosage
+DTSTART;TZID=Europe/Paris:20190515T080000
+DTEND;TZID=Europe/Paris:20190515T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes rhubarbe lider
+DESCRIPTION:117 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190415T080000
+DTEND;TZID=Europe/Paris:20190415T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage rhubarbe lider
+DESCRIPTION:Nb planches : 3.70 (111 m).Tous les 100 cm sur 1 rangs (en plein champ). Rem : supprimer les hampes florales rapidement (sauf si vous souhaitez profiter de sa majestueuse floraison).
+DTSTART;TZID=Europe/Paris:20190515T080000
+DTEND;TZID=Europe/Paris:20190515T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose gaudry2
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190516T080000
+DTEND;TZID=Europe/Paris:20190516T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes courgette black beauty
+DESCRIPTION:50 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190429T080000
+DTEND;TZID=Europe/Paris:20190429T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage courgette black beauty
+DESCRIPTION:Nb planches : 1.50 (45 m).Tous les 100 cm sur 1 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190520T080000
+DTEND;TZID=Europe/Paris:20190520T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes courgette gold rush
+DESCRIPTION:17 mottes, plateaux de 24 trous
+DTSTART;TZID=Europe/Paris:20190429T080000
+DTEND;TZID=Europe/Paris:20190429T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage courgette gold rush
+DESCRIPTION:Nb planches : 0.50 (15 m).Tous les 100 cm sur 1 rangs (en plein champ). Rem : 1,3 pied par panier selon doc L. Marbot
+DTSTART;TZID=Europe/Paris:20190520T080000
+DTEND;TZID=Europe/Paris:20190520T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose de 18 jours
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190523T080000
+DTEND;TZID=Europe/Paris:20190523T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose pernot clair
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (en plein champ). Rem : arret fin mai
+DTSTART;TZID=Europe/Paris:20190530T080000
+DTEND;TZID=Europe/Paris:20190530T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes céleri branche tall utha
+DESCRIPTION:42 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190511T080000
+DTEND;TZID=Europe/Paris:20190511T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage céleri branche tall utha
+DESCRIPTION:Nb planches : 0.17 (15 m).Tous les 40 cm sur 3 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190601T080000
+DTEND;TZID=Europe/Paris:20190601T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou rave noriko
+DESCRIPTION:43 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190504T080000
+DTEND;TZID=Europe/Paris:20190504T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou rave noriko
+DESCRIPTION:Nb planches : 0.10 (12 m).Tous les 30 cm sur 4 rangs (en plein champ). Rem : blanc. Pour été
+DTSTART;TZID=Europe/Paris:20190601T080000
+DTEND;TZID=Europe/Paris:20190601T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue reine de mai
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190511T080000
+DTEND;TZID=Europe/Paris:20190511T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue reine de mai
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190601T080000
+DTEND;TZID=Europe/Paris:20190601T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou brocoli calinaro
+DESCRIPTION:75 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190511T080000
+DTEND;TZID=Europe/Paris:20190511T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou brocoli calinaro
+DESCRIPTION:Nb planches : 0.50 (30 m).Tous les 50 cm sur 2 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190610T080000
+DTEND;TZID=Europe/Paris:20190610T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis betterave rouge janis
+DESCRIPTION:Nb planches : 0.50 (60 m).Tous les 10 cm sur 4 rangs (en plein champ). Rem : pour bottes
+DTSTART;TZID=Europe/Paris:20191227T080000
+DTEND;TZID=Europe/Paris:20191227T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes fenouil romanesco
+DESCRIPTION:43 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190525T080000
+DTEND;TZID=Europe/Paris:20190525T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage fenouil romanesco
+DESCRIPTION:Nb planches : 0.08 (10 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190615T080000
+DTEND;TZID=Europe/Paris:20190615T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis haricot nain mangetout reine des pourpres
+DESCRIPTION:Nb planches : 0.38 (23 m).Tous les 10 cm sur 2 rangs (en plein champ). Rem : >=12°C ; couleur violette
+DTSTART;TZID=Europe/Paris:20190615T080000
+DTEND;TZID=Europe/Paris:20190615T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue feuille de chêne rouge bawl
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190525T080000
+DTEND;TZID=Europe/Paris:20190525T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue feuille de chêne rouge bawl
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190615T080000
+DTEND;TZID=Europe/Paris:20190615T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis navet rose plat de milan
+DESCRIPTION:Nb planches : 0.33 (60 m).Tous les 5 cm sur 6 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190615T080000
+DTEND;TZID=Europe/Paris:20190615T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou blanc farao f1
+DESCRIPTION:75 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190601T080000
+DTEND;TZID=Europe/Paris:20190601T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou blanc farao f1
+DESCRIPTION:Nb planches : 0.50 (30 m).Tous les 50 cm sur 2 rangs (en plein champ). Rem : anti limace
+DTSTART;TZID=Europe/Paris:20190701T080000
+DTEND;TZID=Europe/Paris:20190701T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou rouge buscaro f1
+DESCRIPTION:75 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190601T080000
+DTEND;TZID=Europe/Paris:20190601T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou rouge buscaro f1
+DESCRIPTION:Nb planches : 0.50 (30 m).Tous les 50 cm sur 2 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190701T080000
+DTEND;TZID=Europe/Paris:20190701T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou rouge buscaro f1
+DESCRIPTION:50 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190601T080000
+DTEND;TZID=Europe/Paris:20190601T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou rouge buscaro f1
+DESCRIPTION:Nb planches : 0.33 (20 m).Tous les 50 cm sur 2 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190701T080000
+DTEND;TZID=Europe/Paris:20190701T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue feuille de chêne blonde bawl verte
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190610T080000
+DTEND;TZID=Europe/Paris:20190610T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue feuille de chêne blonde bawl verte
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190701T080000
+DTEND;TZID=Europe/Paris:20190701T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou blanc holsteiner platter
+DESCRIPTION:75 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190615T080000
+DTEND;TZID=Europe/Paris:20190615T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou blanc holsteiner platter
+DESCRIPTION:Nb planches : 0.50 (30 m).Tous les 50 cm sur 2 rangs (en plein champ). Rem : pour choucroute
+DTSTART;TZID=Europe/Paris:20190715T080000
+DTEND;TZID=Europe/Paris:20190715T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou fleur skywalker f1
+DESCRIPTION:75 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190624T080000
+DTEND;TZID=Europe/Paris:20190624T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou fleur skywalker f1
+DESCRIPTION:Nb planches : 0.50 (30 m).Tous les 50 cm sur 2 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190715T080000
+DTEND;TZID=Europe/Paris:20190715T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue reine de juillet
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190624T080000
+DTEND;TZID=Europe/Paris:20190624T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue reine de juillet
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : resiste chaleur
+DTSTART;TZID=Europe/Paris:20190715T080000
+DTEND;TZID=Europe/Paris:20190715T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis navet boule d'or
+DESCRIPTION:Nb planches : 0.56 (100 m).Tous les 5 cm sur 6 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190715T080000
+DTEND;TZID=Europe/Paris:20190715T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis noir noir gros rond d'hiver
+DESCRIPTION:Nb planches : 0.15 (27 m).Tous les 5 cm sur 6 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190715T080000
+DTEND;TZID=Europe/Paris:20190715T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou rutabaga collet jaune
+DESCRIPTION:129 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190619T080000
+DTEND;TZID=Europe/Paris:20190619T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou rutabaga collet jaune
+DESCRIPTION:Nb planches : 0.29 (35 m).Tous les 30 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190719T080000
+DTEND;TZID=Europe/Paris:20190719T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou rave noriko
+DESCRIPTION:43 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190704T080000
+DTEND;TZID=Europe/Paris:20190704T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou rave noriko
+DESCRIPTION:Nb planches : 0.10 (12 m).Tous les 30 cm sur 4 rangs (en plein champ). Rem : blanc. Pour été
+DTSTART;TZID=Europe/Paris:20190801T080000
+DTEND;TZID=Europe/Paris:20190801T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes fenouil romanesco
+DESCRIPTION:43 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190711T080000
+DTEND;TZID=Europe/Paris:20190711T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage fenouil romanesco
+DESCRIPTION:Nb planches : 0.08 (10 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190801T080000
+DTEND;TZID=Europe/Paris:20190801T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue sucrine
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190710T080000
+DTEND;TZID=Europe/Paris:20190710T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue sucrine
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : ok secheresse
+DTSTART;TZID=Europe/Paris:20190801T080000
+DTEND;TZID=Europe/Paris:20190801T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis noir noir gros rond d'hiver
+DESCRIPTION:Nb planches : 0.15 (27 m).Tous les 5 cm sur 6 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190810T080000
+DTEND;TZID=Europe/Paris:20190810T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou milan gros des vertus
+DESCRIPTION:38 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190704T080000
+DTEND;TZID=Europe/Paris:20190704T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou milan gros des vertus
+DESCRIPTION:Nb planches : 0.25 (15 m).Tous les 50 cm sur 2 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190815T080000
+DTEND;TZID=Europe/Paris:20190815T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou fleur whiterock
+DESCRIPTION:50 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190725T080000
+DTEND;TZID=Europe/Paris:20190725T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou fleur whiterock
+DESCRIPTION:Nb planches : 0.33 (20 m).Tous les 50 cm sur 2 rangs (en plein champ). Rem : pour récolte de nov à avril
+DTSTART;TZID=Europe/Paris:20190815T080000
+DTEND;TZID=Europe/Paris:20190815T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue feuille de chêne blonde bawl verte
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190723T080000
+DTEND;TZID=Europe/Paris:20190723T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue feuille de chêne blonde bawl verte
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190815T080000
+DTEND;TZID=Europe/Paris:20190815T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou brocoli violet du cap
+DESCRIPTION:38 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190717T080000
+DTEND;TZID=Europe/Paris:20190717T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou brocoli violet du cap
+DESCRIPTION:Nb planches : 0.25 (15 m).Tous les 50 cm sur 2 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190816T080000
+DTEND;TZID=Europe/Paris:20190816T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue reine de juillet
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190808T080000
+DTEND;TZID=Europe/Paris:20190808T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue reine de juillet
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190901T080000
+DTEND;TZID=Europe/Paris:20190901T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis noir noir gros rond d'hiver
+DESCRIPTION:Nb planches : 0.15 (27 m).Tous les 5 cm sur 6 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190901T080000
+DTEND;TZID=Europe/Paris:20190901T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose de 18 jours
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190902T080000
+DTEND;TZID=Europe/Paris:20190902T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose pernot clair
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190911T080000
+DTEND;TZID=Europe/Paris:20190911T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes fenouil wadenromen
+DESCRIPTION:43 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190816T080000
+DTEND;TZID=Europe/Paris:20190816T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage fenouil wadenromen
+DESCRIPTION:Nb planches : 0.08 (10 m).Tous les 25 cm sur 4 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190915T080000
+DTEND;TZID=Europe/Paris:20190915T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue feuille de chêne rouge bawl
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190821T080000
+DTEND;TZID=Europe/Paris:20190821T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue feuille de chêne rouge bawl
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190915T080000
+DTEND;TZID=Europe/Paris:20190915T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis noir noir gros rond d'hiver
+DESCRIPTION:Nb planches : 0.15 (27 m).Tous les 5 cm sur 6 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190915T080000
+DTEND;TZID=Europe/Paris:20190915T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose gaudry2
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (en plein champ). Rem : 
+DTSTART;TZID=Europe/Paris:20190918T080000
+DTEND;TZID=Europe/Paris:20190918T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes mâche vit
+DESCRIPTION:250 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190821T080000
+DTEND;TZID=Europe/Paris:20190821T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage mâche vit
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20190925T080000
+DTEND;TZID=Europe/Paris:20190925T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose de 18 jours
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (en plein champ). Rem : fin plein champ
+DTSTART;TZID=Europe/Paris:20190926T080000
+DTEND;TZID=Europe/Paris:20190926T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou chinois sat36
+DESCRIPTION:78 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190905T080000
+DTEND;TZID=Europe/Paris:20190905T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou chinois sat36
+DESCRIPTION:Nb planches : 0.31 (28 m).Tous les 40 cm sur 3 rangs (sous serre). Rem : voiler
+DTSTART;TZID=Europe/Paris:20190930T080000
+DTEND;TZID=Europe/Paris:20190930T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes blette charlotte rouge
+DESCRIPTION:135 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190830T080000
+DTEND;TZID=Europe/Paris:20190830T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage blette charlotte rouge
+DESCRIPTION:Nb planches : 0.54 (49 m).Tous les 40 cm sur 3 rangs (sous serre). Rem : >19°€
+DTSTART;TZID=Europe/Paris:20191001T080000
+DTEND;TZID=Europe/Paris:20191001T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes epinard géant d'hiver
+DESCRIPTION:270 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190901T080000
+DTEND;TZID=Europe/Paris:20190901T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage epinard géant d'hiver
+DESCRIPTION:Nb planches : 0.51 (61 m).Tous les 25 cm sur 4 rangs (sous serre). Rem : 2 gr/motte pour etre sûr d'avoir un plant. Repiquage sur bache 4x25. A CALER SELON RECOLTE FEUILLE A FEUILLE
+DTSTART;TZID=Europe/Paris:20191001T080000
+DTEND;TZID=Europe/Paris:20191001T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis fèves agadulce
+DESCRIPTION:Nb planches : 0.58 (35 m).Tous les 12 cm sur 2 rangs (sous serre). Rem : à butter
+DTSTART;TZID=Europe/Paris:20191001T080000
+DTEND;TZID=Europe/Paris:20191001T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue merveille des 4 saisons
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190901T080000
+DTEND;TZID=Europe/Paris:20190901T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue merveille des 4 saisons
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20191001T080000
+DTEND;TZID=Europe/Paris:20191001T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose pernot clair
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20191002T080000
+DTEND;TZID=Europe/Paris:20191002T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis radis rose gaudry2
+DESCRIPTION:Nb planches : 0.21 (51 m).Tous les 3 cm sur 8 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20191009T080000
+DTEND;TZID=Europe/Paris:20191009T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue batavia florine
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190831T080000
+DTEND;TZID=Europe/Paris:20190831T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue batavia florine
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20191010T080000
+DTEND;TZID=Europe/Paris:20191010T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes roquette cultivée
+DESCRIPTION:222 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190928T080000
+DTEND;TZID=Europe/Paris:20190928T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage roquette cultivée
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20191010T080000
+DTEND;TZID=Europe/Paris:20191010T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes roquette cultivée
+DESCRIPTION:222 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190928T080000
+DTEND;TZID=Europe/Paris:20190928T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage roquette cultivée
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20191010T080000
+DTEND;TZID=Europe/Paris:20191010T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes mizuna verte
+DESCRIPTION:222 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190930T080000
+DTEND;TZID=Europe/Paris:20190930T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage mizuna verte
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 2 coupes par série.
+DTSTART;TZID=Europe/Paris:20191015T080000
+DTEND;TZID=Europe/Paris:20191015T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes mâche verte de cambrai
+DESCRIPTION:500 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190915T080000
+DTEND;TZID=Europe/Paris:20190915T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage mâche verte de cambrai
+DESCRIPTION:Nb planches : 0.33 (60 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 10 séries ?
+DTSTART;TZID=Europe/Paris:20191025T080000
+DTEND;TZID=Europe/Paris:20191025T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:semis carotte primeur napoli f1
+DESCRIPTION:Nb planches : 0.40 (60 m).Tous les 4 cm sur 5 rangs (sous serre). Rem : prepa planche a essayer aussi  Oxhella ou Janette
+DTSTART;TZID=Europe/Paris:20191030T080000
+DTEND;TZID=Europe/Paris:20191030T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou chinois pak choi
+DESCRIPTION:75 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20191005T080000
+DTEND;TZID=Europe/Paris:20191005T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou chinois pak choi
+DESCRIPTION:Nb planches : 0.30 (27 m).Tous les 40 cm sur 3 rangs (sous serre). Rem : voiler
+DTSTART;TZID=Europe/Paris:20191030T080000
+DTEND;TZID=Europe/Paris:20191030T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes pourpier d'hiver clayton de cuba
+DESCRIPTION:222 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20191009T080000
+DTEND;TZID=Europe/Paris:20191009T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage pourpier d'hiver clayton de cuba
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 2 coupes par série.
+DTSTART;TZID=Europe/Paris:20191031T080000
+DTEND;TZID=Europe/Paris:20191031T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes epinard géant d'hiver
+DESCRIPTION:270 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20190927T080000
+DTEND;TZID=Europe/Paris:20190927T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage epinard géant d'hiver
+DESCRIPTION:Nb planches : 0.51 (61 m).Tous les 25 cm sur 4 rangs (sous serre). Rem : 2 gr/motte pour etre sûr d'avoir un plant. Repiquage sur bache 4x25. A CALER SELON RECOLTE FEUILLE A FEUILLE
+DTSTART;TZID=Europe/Paris:20191101T080000
+DTEND;TZID=Europe/Paris:20191101T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes moutarde red giant
+DESCRIPTION:267 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20191002T080000
+DTEND;TZID=Europe/Paris:20191002T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage moutarde red giant
+DESCRIPTION:Nb planches : 0.50 (60 m).Tous les 25 cm sur 4 rangs (sous serre). Rem : Récolte feuille à feuille
+DTSTART;TZID=Europe/Paris:20191101T080000
+DTEND;TZID=Europe/Paris:20191101T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes roquette cultivée
+DESCRIPTION:222 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20191026T080000
+DTEND;TZID=Europe/Paris:20191026T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage roquette cultivée
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20191110T080000
+DTEND;TZID=Europe/Paris:20191110T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes mizuna verte
+DESCRIPTION:222 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20191031T080000
+DTEND;TZID=Europe/Paris:20191031T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage mizuna verte
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 2 coupes par série.
+DTSTART;TZID=Europe/Paris:20191115T080000
+DTEND;TZID=Europe/Paris:20191115T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes mâche vit
+DESCRIPTION:250 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20191006T080000
+DTEND;TZID=Europe/Paris:20191006T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage mâche vit
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20191125T080000
+DTEND;TZID=Europe/Paris:20191125T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes epinard géant d'hiver
+DESCRIPTION:270 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20191022T080000
+DTEND;TZID=Europe/Paris:20191022T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage epinard géant d'hiver
+DESCRIPTION:Nb planches : 0.51 (61 m).Tous les 25 cm sur 4 rangs (sous serre). Rem : 2 gr/motte pour etre sûr d'avoir un plant. Repiquage sur bache 4x25. A CALER SELON RECOLTE FEUILLE A FEUILLE
+DTSTART;TZID=Europe/Paris:20191201T080000
+DTEND;TZID=Europe/Paris:20191201T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes oignon de printemps blanc musona
+DESCRIPTION:16986 mottes, plateaux de 0 trous
+DTSTART;TZID=Europe/Paris:20191101T080000
+DTEND;TZID=Europe/Paris:20191101T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage oignon de printemps blanc musona
+DESCRIPTION:Nb planches : 12.74 (2293 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20191201T080000
+DTEND;TZID=Europe/Paris:20191201T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue merveille des 4 saisons
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20191031T080000
+DTEND;TZID=Europe/Paris:20191031T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue merveille des 4 saisons
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20191210T080000
+DTEND;TZID=Europe/Paris:20191210T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes roquette cultivée
+DESCRIPTION:222 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20191125T080000
+DTEND;TZID=Europe/Paris:20191125T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage roquette cultivée
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20191210T080000
+DTEND;TZID=Europe/Paris:20191210T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes mizuna verte
+DESCRIPTION:222 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20191130T080000
+DTEND;TZID=Europe/Paris:20191130T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage mizuna verte
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 2 coupes par série.
+DTSTART;TZID=Europe/Paris:20191215T080000
+DTEND;TZID=Europe/Paris:20191215T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes laitue merveille d'hiver
+DESCRIPTION:166 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20191110T080000
+DTEND;TZID=Europe/Paris:20191110T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage laitue merveille d'hiver
+DESCRIPTION:Nb planches : 0.31 (37 m).Tous les 25 cm sur 4 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20191220T080000
+DTEND;TZID=Europe/Paris:20191220T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes pourpier d'hiver clayton de cuba
+DESCRIPTION:222 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20191110T080000
+DTEND;TZID=Europe/Paris:20191110T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage pourpier d'hiver clayton de cuba
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 2 coupes par série.
+DTSTART;TZID=Europe/Paris:20191220T080000
+DTEND;TZID=Europe/Paris:20191220T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes mâche verte de cambrai
+DESCRIPTION:250 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20191105T080000
+DTEND;TZID=Europe/Paris:20191105T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage mâche verte de cambrai
+DESCRIPTION:Nb planches : 0.17 (30 m).Tous les 15 cm sur 6 rangs (sous serre). Rem : 
+DTSTART;TZID=Europe/Paris:20191225T080000
+DTEND;TZID=Europe/Paris:20191225T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mottes chou rave azur star
+DESCRIPTION:43 mottes, plateaux de 77 trous
+DTSTART;TZID=Europe/Paris:20191125T080000
+DTEND;TZID=Europe/Paris:20191125T090000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:repiquage chou rave azur star
+DESCRIPTION:Nb planches : 0.10 (12 m).Tous les 30 cm sur 4 rangs (sous serre). Rem : violet
+DTSTART;TZID=Europe/Paris:20191230T080000
+DTEND;TZID=Europe/Paris:20191230T090000
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

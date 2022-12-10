@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block javascript %}
+<script type="text/javascript" src="{% static 'javascripts/myTools.js' %}"> </script>
+<script type="text/javascript" src="{% static 'javascripts/colorScores.js' %}"> </script>
+<script type="text/javascript" >
+
+
+function init()
+    {
+    colorScores()
+        
+    }
+
+</script>
+
+{% endblock %}
+
+{% block title %}Surfaces de culture sur les planches au fil du temp {% endblock %}
+
+{% block content %}
+
+    <p id="divInfoDebug">{{info}} </p>
+    
+    
+    <form action="" method="POST" accept-charset="utf-8">
+    {% csrf_token %}
+    {% include "blockMenuPeriode.html" %}
+    </form>
+    
+    <p>      
+    <table border="1"><tbody>
+        <tr><th>Planches/j</th>
+            {% for jour in l_jours %}
+                <td align="center">{{jour|date:'d/m/Y'}}</td>
+            {% endfor %}
+        </tr>
+        
+        {% for planche in l_planches %}
+        <tr>
+            <th>{{planche.nom|title}}</th>
+            
+            {% for infoPlanche in planche.l_infoJours %}            
+            <td>{{infoPlanche.0|date:'d/m/Y'}}<br/>
+            <div class="score" id="j_{{infoPlanche.0|date:'Y-m-d'}}__planche_{{planche.id}}" ratio="{{infoPlanche.2}}">{{infoPlanche.1}}/{{planche.surface_m2|floatformat:0}}<br/>
+                Libre<br/>{{infoPlanche.2}}%</div>    
+            </td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+        
+    </tbody></table>
+    
+    
+        
+{% endblock %}

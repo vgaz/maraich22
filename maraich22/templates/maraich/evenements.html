@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% block pagetitle %}Suivi évènements{% endblock %}
+{% load static %}
+
+{% block javascript %}
+
+<style>
+
+#date_du_jour
+{
+    position:absolute;
+    width: 2px;
+    background: white;
+    border: 2px solid blue;   
+}
+
+</style>
+
+    <script type="text/javascript" src="{{ STATIC_URL }}javascripts/myTools.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}javascripts/moment-with-locales.min.js"></script>
+
+    <script type="text/javascript">
+    
+    s_info = ""
+    date_debut_vue = "{{date_debut_vue|safe}}"
+    date_fin_vue = "{{date_fin_vue|safe}}"
+    date_du_jour = "{{date_aujourdhui|safe}}"
+    
+    NomEvtDeId = {  {% for evtType in l_typesEvt %} '{{evtType.id}}':'{{evtType.nom}}',{% endfor %}  }
+
+function    init()
+    {
+    // personalisation du menu
+    document.getElementById("menu_periode_option_serres_champs").style.display="none"
+    document.getElementById("menu_periode_option_filtre_planche").style.display="none"
+    }
+    
+</script>
+{% endblock %}
+
+{% block title %}Liste des événements{% endblock %}
+{% block content %}
+
+<p id="divInfoDebug"> </p>
+
+<form action="" method="post" accept-charset="utf-8">
+{% csrf_token %}
+{% include "blockMenuPeriode.html" %}
+<br/>
+<input  type="radio" name="bEncours" value="on" {% if bEncours %}checked{%endif%} />Juste les évenements non terminés 
+<input  type="radio" name="bEncours" value="off" {% if not bEncours %}checked{%endif%} />Tous
+
+<input  type="checkbox" name="vers_fichier"/>Enregistrer
+
+<div id="main" style="text-align: center" >
+
+<br/><br/>
+        {# séries existantes en base #}
+        <table>
+        <tr><th>Date</th><th>Evènement</th><th>Nom de la série</th><th>Terminé</th></tr>
+        {% for evt in l_evts %}
+           
+                <tr id="{{evt.id}}">
+                {% if evt.date|date:'d/m/Y' == infoPeriode.date_aujourdhui|date:'d/m/Y' %}
+                    <td class="tdEvt2">{{evt.date|date:'d/m/Y'}}</td>
+                    <td class="tdEvt2">{{evt.nom|title}}</td>
+                    <td class="tdEvt2">{{evt.txt}}</td>
+                {% else %}
+                    <td class="tdEvt">{{evt.date|date:'d/m/Y'}}</td>
+                    <td class="tdEvt">{{evt.nom|title}}</td>
+                    <td class="tdEvt">{{evt.txt}}</td>
+                {% endif %}
+                    <td class="tdEvt"><input  type="checkbox" name="evt_fin_{{evt.pk}}" {% if evt.b_fini %}checked{%endif%} /></td>
+                </tr>
+        {% endfor %}
+        </table>
+</div>
+</form>
+{% endblock %}
