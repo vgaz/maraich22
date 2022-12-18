@@ -4,9 +4,9 @@ import os, sys
 
 # from django.core.management.base import BaseCommand
 # from maraich.models import *
-from maraich.settings import log
+from settings import log
 import re
-from maraich import constant
+import constant
 
 
 sys.path.insert(-1, "/home/vincent/Documents/donnees/DIVERS/DeveloppementLogiciel/python/MyPyTools")

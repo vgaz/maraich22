@@ -5,7 +5,7 @@ Created on 15 févr. 2015
 @author: vincent
 '''
 
-APP_NAME = "MARAICH"
+APP_NAME = "Maraich22"
 
 
 # A faire
@@ -16,7 +16,7 @@ APP_NAME = "MARAICH"
 #  
 #  
  
-APP_VERSION = "1.3"
+APP_VERSION = "1.4"
 
 UNITE_PROD_KG = 1
 UNITE_PROD_PIECE = 2
