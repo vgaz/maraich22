@@ -3,6 +3,7 @@
 	<name>maraich22</name>
 	<comment></comment>
 	<projects>
+		<project>MyPyTools</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
