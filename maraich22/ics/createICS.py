@@ -1,17 +1,16 @@
 # -*- coding: utf-8 -*-
 import csv
 import os, sys
-from datetime import datetime, timedelta
+from datetime import timedelta
 
 # from django.core.management.base import BaseCommand
 # from maraich.models import *
 from settings import log
 import re
-import constant
 
 import MyTools
 
-sys.path.insert(-1, "/home/vincent/Documents/donnees/DIVERS/DeveloppementLogiciel/python/MyPyTools")
+sys.path.insert(-1, "/home/vincent/Documents/donnees/DIVERS/DeveloppementLogiciel/git/Repo_MyPyTools/MyPyTools")
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 

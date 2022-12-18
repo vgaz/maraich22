@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import csv
 import os, sys
 
 # from django.core.management.base import BaseCommand
@@ -9,7 +8,7 @@ import re
 import constant
 import MyTools
 
-sys.path.insert(-1, "/home/vincent/Documents/donnees/DIVERS/DeveloppementLogiciel/python/MyPyTools")
+sys.path.insert(-1, "/home/vincent/Documents/donnees/DIVERS/DeveloppementLogiciel/git/Repo_MyPyTools/MyPyTools")
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -318,7 +317,7 @@ def getCumul(l_evts, legume):
         
             assert bPatPaniers, "ERR def nombre de paniers le :%s"%evt.date      
     except:
-       log.error("ERR %s %s", str(evt), legume)
+        log.error("ERR %s %s", str(evt), legume)
     
     return (cumul)
 
@@ -466,7 +465,10 @@ if __name__ == '__main__':
     l_annees = [str(aa) for aa in range(int(s_dateDebut.split("/")[2]),int(s_dateFin.split("/")[2])+1)]
     for s_an in l_annees:
         log.info("Récup fichier ics de %s"%s_an)
-        l_evts += getEvents(S_HOMEPATH + "/Cultures/%s/maraich %s.ics"%(s_an, s_an))  
+        s_path = S_HOMEPATH + "/Cultures/%s/maraich %s.ics"%(s_an, s_an)
+        if not os.path.lexists(s_path):
+            log.error("Path doesn't exist : %s"%(s_path))
+        l_evts += getEvents(s_path)  
                
     l_evts.sort(key=lambda x: x.date)
         
