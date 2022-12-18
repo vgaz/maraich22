@@ -5,15 +5,14 @@ from datetime import datetime, timedelta
 
 # from django.core.management.base import BaseCommand
 # from maraich.models import *
-from maraich.settings import log
+from settings import log
 import re
-from maraich import constant
+import constant
 
+import MyTools
 
 sys.path.insert(-1, "/home/vincent/Documents/donnees/DIVERS/DeveloppementLogiciel/python/MyPyTools")
 
-
-import MyTools
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 

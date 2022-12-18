@@ -5,7 +5,7 @@ Created on 12 janv. 2020
 '''
 import sys, csv
 
-from maraich.settings import log
+from settings import log
 import MyTools
 
 l_err = []

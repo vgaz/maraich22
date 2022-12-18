@@ -7,8 +7,8 @@ import os, sys
 from settings import log
 import re
 import constant
+import MyTools
 
-import MyPyTools
 sys.path.insert(-1, "/home/vincent/Documents/donnees/DIVERS/DeveloppementLogiciel/python/MyPyTools")
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
