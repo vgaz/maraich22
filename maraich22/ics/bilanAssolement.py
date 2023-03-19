@@ -196,7 +196,7 @@ def getEvents(filePath):
 
 
 def getTxtEvtsAssolement(l_evts):
-    """ retourne une multistring décrivant tous les évenements
+    """ retourne une multistring décrivant tous les évenements via différents tris
     """
     s_txtEvts = ""
     l_evts.sort(key=lambda x: x.date)
@@ -332,7 +332,7 @@ def createCSVDistrib(l_evts, myFileName):
     s_txt = ""
 #     l_cptLegs = []
     try:
-        s_txt += ('Jour;Date;Taille;Légume;Quantité;Unité;Equivalent poids;Qté Totale en poids;Prix U;Unité_théorique;Montant; Commentaire\n')
+        s_txt += ('Jour;Date;Taille;Légume;Quantité;Unité;Prix U (€);Montant(€); Commentaire\n')
 
         for evt in [ev for ev in l_evts if ev.type == EvtICS.TYPE_DISTRIB]:
             
@@ -353,13 +353,13 @@ def createCSVDistrib(l_evts, myFileName):
                     continue
 
                 if legCourant:
-                    ## recup des valeurs par panier
+                    ## recup des valeurs par panier ; ici, on a déjà l'unité courante
                     patParts = paternParts.match(s_ligne) 
                     if patParts:
                         partPetits = float(patParts.group(1))
                         partMoyens = float(patParts.group(2))
                         partGrands = float(patParts.group(3))
-                        if s_uniteCourante.lower() == "kg":
+                        if s_uniteCourante == "kg":
                             partPetits = partPetits/1000
                             partMoyens = partMoyens/1000
                             partGrands = partGrands/1000
@@ -368,38 +368,45 @@ def createCSVDistrib(l_evts, myFileName):
                         s_completeComment += s_comment               
                         
                         
-                        prixU=0
+                        s_prix=""
 
                         ## recherche du prix du légume
                         for d_leg in [ d_legume for d_legume in constant.L_LEGUMES]:
                             if legCourant.startswith(d_leg["nom"]):
-                                prixU = ("%.2f"%(d_leg["prix"])).replace(".",",")
-                                uniteTheorique = constant.D_NOM_UNITE_PROD[d_leg["unite"]]
+                                try:
+                                    if s_uniteCourante == "kg":
+                                        s_prix = ("%.2f"%(d_leg["prixKg"])).replace(".",",")
+                                    else:
+                                        s_prix = ("%.2f"%(d_leg["prixU"])).replace(".",",")
+                                except:
+                                    s_completeComment += " !!! Pb unité discordante "
+
+                                # uniteTheorique = constant.D_NOM_UNITE_PROD[d_leg["unite"]]
                                 break
                             
-                        if not prixU:
-                            log.error ("!!!! pas de prix pour %s le %s"%(legCourant, evt.date))
+                        if not s_prix:
+                            log.error ("!!! pas de prix pour %s le %s"%(legCourant, evt.date))
                         
                         assert s_uniteCourante , "pas d'unité courante"
                         
-                        if uniteTheorique.lower() != s_uniteCourante.lower():
-                            log.warning("!!! Pb unité discordante %s le %s"%(legCourant, evt.date))
-                            s_completeComment += " !!! Pb unité discordante "
+                        # if uniteTheorique.lower() != s_uniteCourante:
+                        #     log.warning("!!! Pb unité discordante %s le %s"%(legCourant, evt.date))
+                        #     s_completeComment += " !!! Pb unité discordante "
 
 
                         
-                        s_txt += '"%s";"%s";"petit";"%s";%s;"%s";"";"";%s;"%s";"";"%s"\n'%(s_jour, evt.date, legCourant, (("%.03f")%partPetits).replace(".",","), s_uniteCourante, prixU, uniteTheorique, s_completeComment)
-                        s_txt += '"%s";"%s";"moyen";"%s";%s;"%s";"";"";%s;"%s";"";"%s"\n'%(s_jour, evt.date, legCourant, (("%.03f")%partMoyens).replace(".",","), s_uniteCourante, prixU, uniteTheorique, s_completeComment)
-                        s_txt += '"%s";"%s";"grand";"%s";%s;"%s";"";"";%s;"%s";"";"%s"\n'%(s_jour, evt.date, legCourant, (("%.03f")%partGrands).replace(".",","), s_uniteCourante, prixU, uniteTheorique, s_completeComment)
+                        s_txt += '"%s";"%s";"petit";"%s";%s;"%s";%s;"";"%s"\n'%(s_jour, evt.date, legCourant, (("%.03f")%partPetits).replace(".",","), s_uniteCourante, s_prix,  s_completeComment)
+                        s_txt += '"%s";"%s";"moyen";"%s";%s;"%s";%s;"";"%s"\n'%(s_jour, evt.date, legCourant, (("%.03f")%partMoyens).replace(".",","), s_uniteCourante, s_prix,  s_completeComment)
+                        s_txt += '"%s";"%s";"grand";"%s";%s;"%s";%s;"";"%s"\n'%(s_jour, evt.date, legCourant, (("%.03f")%partGrands).replace(".",","), s_uniteCourante, s_prix,  s_completeComment)
                 
                 patLegume = paternTotalLegume.match(s_ligne)
                 if patLegume:
 #                     cptLegs+=1
                     
                     legCourant = patLegume.group(1).strip()
-                    
+
                     if patLegume.group(3):
-                        s_uniteCourante = patLegume.group(3)
+                        s_uniteCourante = patLegume.group(3).lower()
                     else:
                         s_uniteCourante = "pièce"
                         
@@ -411,7 +418,7 @@ def createCSVDistrib(l_evts, myFileName):
  
                 patErrOubliPds = paternOubliTotal.match(s_ligne)
                 if patErrOubliPds:
-                    print (s_ligne, str(evt.date))
+                    log.error( "pb donnée: %s le %s"%(s_ligne, str(evt.date)))
 
 #             log.info("nbLegs:%02d"%(cptLegs))
 
@@ -452,8 +459,8 @@ if __name__ == '__main__':
     ###################################
     ## Définition de la période étudiée
     ##
-    s_dateDebut = "1/01/2018"
-    s_dateFin = "30/12/2022"
+    s_dateDebut = "1/04/2022"
+    s_dateFin = "30/03/2023"
     ##
     ###################################
     
@@ -476,9 +483,10 @@ if __name__ == '__main__':
     log.info("Récupération des évènements du %s au %s"%(MyTools.getDMYFromDate(dateDebut),MyTools.getDMYFromDate(dateFin)))
     l_evts = [evt for evt in l_evts if (evt.date > dateDebut and evt.date < dateFin)]
     
-    ## Création synthèse des évenements par planche, par légume, par distrib...
-    s_ficSynthese = S_HOMEPATH + "/Cultures/historiqueCultures_%s_%s.txt"%(MyTools.getYMDFromDate(dateDebut), MyTools.getYMDFromDate(dateFin))
-    if True:
+    ## Création synthèse des évenements par planche, par légume, par distribution
+    # if True:
+    if False:
+        s_ficSynthese = S_HOMEPATH + "/Cultures/historiqueCultures_%s_%s.txt"%(MyTools.getYMDFromDate(dateDebut), MyTools.getYMDFromDate(dateFin))
         MyTools.strToFic(s_ficSynthese, getTxtEvtsAssolement(l_evts))
 
         ## récup des cumuls de distribution par légume
@@ -492,16 +500,18 @@ if __name__ == '__main__':
   
   
     
-    ## création d'un fichier csv recapitulant toutes les distribs
-    if False:
-        createCSVDistrib(   l_evts, 
-                            S_HOMEPATH + "/AMAP/Distributions_%s_%s.txt"%(MyTools.getYMDFromDate(dateDebut), MyTools.getYMDFromDate(dateFin)))
-
-
-
-    ## Aide à la recherche des planches à retenir pour telle ou telle famille de légume selon historique
     if True:
-        
+    # if False:
+        ## création d'un fichier csv recapitulant toutes les distribs
+        createCSVDistrib(   l_evts, 
+                            os.path.join(S_HOMEPATH,"AMAP","Distributions_%s_%s.csv")%(MyTools.getYMDFromDate(dateDebut), MyTools.getYMDFromDate(dateFin))
+                        )
+
+
+    if False:
+    # if True:
+        ## Aide à la recherche des planches à retenir pour telle ou telle famille de légume selon historique
+
         log.info("Pour chaque famille, recherche des planches ayant accueilli cette famille le plus récemment")
         
         s_prefix = input("Initiale des planches à trouver (B, D, H, S) ou rien ? > ")
@@ -523,19 +533,9 @@ if __name__ == '__main__':
               
             for date, pl in l_tup2:
                 print( pl + "\t" + str(date))
-            
-#             # affichage des planches jamais encore prises
-#             for pl in constant.L_PLANCHES:
-#                 for plDC, _d in l_planches:
-#                     if pl == plDC: 
-#                         plDC = 0
-#                         break
-#                 if plDC == 0:
-#                     continue    
-#                 log.info(pl + " jamais prise")
 
         
-        log.debug("fin")
+    log.debug("fin")
 
         
 

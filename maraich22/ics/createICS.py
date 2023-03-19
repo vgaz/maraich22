@@ -159,10 +159,8 @@ def creationICS(csvFilePath, icsFilePath):
 
 
 if __name__ == '__main__':
-     
 
-    
-    s_annee = "2022"
+    s_annee = "2023"
     creationICS("/home/vincent/Documents/donnees/maraichage/Armorique/lancieux/LaNouvelais/Cultures/%s/csv/planning.%s.csv"%(s_annee, s_annee),
                 "/home/vincent/Documents/donnees/maraichage/Armorique/lancieux/LaNouvelais/Cultures/%s/planning.%s.ics"%(s_annee, s_annee))
     
