@@ -332,7 +332,7 @@ def createCSVDistrib(l_evts, myFileName):
     s_txt = ""
 #     l_cptLegs = []
     try:
-        s_txt += ('Jour;Date;Taille;Légume;Quantité;Unité;Prix U (€);Montant(€); Commentaire\n')
+        s_txt += ('Jour;Date;Taille;Légume;Quantité;Unité;Prix U (euro);Montant (euro); Commentaire\n')
 
         for evt in [ev for ev in l_evts if ev.type == EvtICS.TYPE_DISTRIB]:
             
