@@ -337,7 +337,7 @@ def createCSVDistrib(l_evts, myFileName):
         for evt in [ev for ev in l_evts if ev.type == EvtICS.TYPE_DISTRIB]:
             
 #             cptLegs = 0
-            legCourant = ""
+            s_legCourant = ""
             s_uniteCourante = ""
             s_completeComment = ""
             
@@ -352,7 +352,7 @@ def createCSVDistrib(l_evts, myFileName):
                     ## que fait on du nb de paniers ?
                     continue
 
-                if legCourant:
+                if s_legCourant:
                     ## recup des valeurs par panier ; ici, on a déjà l'unité courante
                     patParts = paternParts.match(s_ligne) 
                     if patParts:
@@ -368,42 +368,45 @@ def createCSVDistrib(l_evts, myFileName):
                         s_completeComment += s_comment               
                         
                         
-                        s_prix=""
-
-                        ## recherche du prix du légume
+                        s_prixU = ""
+                        f_prixU = 0.0
+                        ## recherche du prix unitaire du légume courant
                         for d_leg in [ d_legume for d_legume in constant.L_LEGUMES]:
-                            if legCourant.startswith(d_leg["nom"]):
+                            if s_legCourant.startswith(d_leg["nom"]):
                                 try:
                                     if s_uniteCourante == "kg":
-                                        s_prix = ("%.2f"%(d_leg["prixKg"])).replace(".",",")
+                                        f_prixU = d_leg["prixKg"]
+                                        s_prixU = ("%.2f"%(f_prixU)).replace(".",",")
                                     else:
-                                        s_prix = ("%.2f"%(d_leg["prixU"])).replace(".",",")
+                                        f_prixU = d_leg["prixU"]
+                                        s_prixU = ("%.2f"%(f_prixU)).replace(".",",")
                                 except:
-                                    s_completeComment += " !!! Pb unité discordante "
+                                    s_txtErr = "!!! Pb recup du prixU pour %s"%(s_legCourant)
+                                    s_completeComment +=  s_txtErr
+                                    log.warning("!!! pas de prix pour %s le %s" %(s_legCourant, evt.date))
 
-                                # uniteTheorique = constant.D_NOM_UNITE_PROD[d_leg["unite"]]
+
                                 break
                             
-                        if not s_prix:
-                            log.error ("!!! pas de prix pour %s le %s"%(legCourant, evt.date))
+                        if not s_prixU:
+                            log.error ("!!! pas de prixU pour %s le %s" %(s_legCourant, evt.date))
                         
-                        assert s_uniteCourante , "pas d'unité courante"
-                        
-                        # if uniteTheorique.lower() != s_uniteCourante:
-                        #     log.warning("!!! Pb unité discordante %s le %s"%(legCourant, evt.date))
-                        #     s_completeComment += " !!! Pb unité discordante "
+                        if not s_uniteCourante:
+                            log.error ("!!! pas d'unité courante pour %s le %s" %(s_legCourant, evt.date))
 
-
-                        
-                        s_txt += '"%s";"%s";"petit";"%s";%s;"%s";%s;"";"%s"\n'%(s_jour, evt.date, legCourant, (("%.03f")%partPetits).replace(".",","), s_uniteCourante, s_prix,  s_completeComment)
-                        s_txt += '"%s";"%s";"moyen";"%s";%s;"%s";%s;"";"%s"\n'%(s_jour, evt.date, legCourant, (("%.03f")%partMoyens).replace(".",","), s_uniteCourante, s_prix,  s_completeComment)
-                        s_txt += '"%s";"%s";"grand";"%s";%s;"%s";%s;"";"%s"\n'%(s_jour, evt.date, legCourant, (("%.03f")%partGrands).replace(".",","), s_uniteCourante, s_prix,  s_completeComment)
+                        f_prixP = partPetits * f_prixU
+                        f_prixM = partMoyens * f_prixU
+                        f_prixG = partGrands * f_prixU
+                      
+                        s_txt += '"%s";"%s";"petit";"%s";%s;"%s";%s;"%s";"%s"\n'%(s_jour, evt.date, s_legCourant, (("%.03f")%partPetits).replace(".",","), s_uniteCourante, s_prixU, (("%.02f")%f_prixP), s_completeComment)
+                        s_txt += '"%s";"%s";"moyen";"%s";%s;"%s";%s;"%s";"%s"\n'%(s_jour, evt.date, s_legCourant, (("%.03f")%partMoyens).replace(".",","), s_uniteCourante, s_prixU, (("%.02f")%f_prixM),  s_completeComment)
+                        s_txt += '"%s";"%s";"grand";"%s";%s;"%s";%s;"%s";"%s"\n'%(s_jour, evt.date, s_legCourant, (("%.03f")%partGrands).replace(".",","), s_uniteCourante, s_prixU, (("%.02f")%f_prixG),  s_completeComment)
                 
                 patLegume = paternTotalLegume.match(s_ligne)
                 if patLegume:
 #                     cptLegs+=1
                     
-                    legCourant = patLegume.group(1).strip()
+                    s_legCourant = patLegume.group(1).strip()
 
                     if patLegume.group(3):
                         s_uniteCourante = patLegume.group(3).lower()
@@ -413,7 +416,7 @@ def createCSVDistrib(l_evts, myFileName):
                     s_completeComment += s_comment               
                     continue
                 else:
-                    legCourant = ""
+                    s_legCourant = ""
                     s_completeComment = ""  
  
                 patErrOubliPds = paternOubliTotal.match(s_ligne)
