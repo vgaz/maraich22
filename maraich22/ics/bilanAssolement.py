@@ -393,13 +393,14 @@ def createCSVDistrib(l_evts, myFileName):
                         if not s_uniteCourante:
                             log.error ("!!! pas d'unité courante pour %s le %s" %(s_legCourant, evt.date))
 
-                        f_prixP = partPetits * f_prixU
-                        f_prixM = partMoyens * f_prixU
-                        f_prixG = partGrands * f_prixU
+                        s_prixP = (("%.02f")%(partPetits*f_prixU)).replace(".",",")
+                        s_prixM = (("%.02f")%(partMoyens*f_prixU)).replace(".",",")
+                        s_prixG = (("%.02f")%(partGrands*f_prixU)).replace(".",",")
+
                       
-                        s_txt += '"%s";"%s";"petit";"%s";%s;"%s";%s;"%s";"%s"\n'%(s_jour, evt.date, s_legCourant, (("%.03f")%partPetits).replace(".",","), s_uniteCourante, s_prixU, (("%.02f")%f_prixP), s_completeComment)
-                        s_txt += '"%s";"%s";"moyen";"%s";%s;"%s";%s;"%s";"%s"\n'%(s_jour, evt.date, s_legCourant, (("%.03f")%partMoyens).replace(".",","), s_uniteCourante, s_prixU, (("%.02f")%f_prixM),  s_completeComment)
-                        s_txt += '"%s";"%s";"grand";"%s";%s;"%s";%s;"%s";"%s"\n'%(s_jour, evt.date, s_legCourant, (("%.03f")%partGrands).replace(".",","), s_uniteCourante, s_prixU, (("%.02f")%f_prixG),  s_completeComment)
+                        s_txt += '"%s";"%s";"petit";"%s";%s;"%s";%s;"%s";"%s"\n'%(s_jour, evt.date, s_legCourant, (("%.03f")%partPetits).replace(".",","), s_uniteCourante, s_prixU, s_prixP, s_completeComment)
+                        s_txt += '"%s";"%s";"moyen";"%s";%s;"%s";%s;"%s";"%s"\n'%(s_jour, evt.date, s_legCourant, (("%.03f")%partMoyens).replace(".",","), s_uniteCourante, s_prixU, s_prixM,  s_completeComment)
+                        s_txt += '"%s";"%s";"grand";"%s";%s;"%s";%s;"%s";"%s"\n'%(s_jour, evt.date, s_legCourant, (("%.03f")%partGrands).replace(".",","), s_uniteCourante, s_prixU, s_prixG,  s_completeComment)
                 
                 patLegume = paternTotalLegume.match(s_ligne)
                 if patLegume:
