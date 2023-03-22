@@ -323,14 +323,15 @@ def getCumul(l_evts, legume):
 
 
 def createCSVDistrib(l_evts, myFileName):
-    """ recup des distributions et création d'un tableau csv de chaque légume par date et taille de panier
+    """ Recupération des informations de distributions et création d'un tableau csv de chaque légume par date et taille de panier
     """
     paternParts = re.compile("([0-9]+) ([0-9]+) ([0-9]+) *")
     paternPaniers = re.compile("paniers : ([0-9]+) ([0-9]+) ([0-9]+)")
     paternTotalLegume = re.compile("(.*) *: *([0-9,]+) *(\w+)?")
     paternOubliTotal = re.compile("(.*) *: *")
     s_txt = ""
-#     l_cptLegs = []
+    log.info(createCSVDistrib.__doc__)
+
     try:
         s_txt += ('Jour;Date;Taille;Légume;Quantité;Unité;Prix U (euro);Montant (euro); Commentaire\n')
 
@@ -384,8 +385,6 @@ def createCSVDistrib(l_evts, myFileName):
                                     s_txtErr = "!!! Pb recup du prixU pour %s"%(s_legCourant)
                                     s_completeComment +=  s_txtErr
                                     log.warning("!!! pas de prix pour %s le %s" %(s_legCourant, evt.date))
-
-
                                 break
                             
                         if not s_prixU:
