@@ -57,7 +57,7 @@ L_LEGUMES = [{"nom":"aillet",           "prixU":14/15                   },
             {"nom":"basilic",           "prixU":0.3                     }, ## piece = brins
             {"nom":"betterave",         "prixKg":3.5                    },
             {"nom":"blette" ,           "prixKg":4                      },
-            {"nom":"carotte botte",     "prixU":3.8                     },
+            {"nom":"carotte botte",     "prixKg":3.8                    },
             {"nom":"carotte primeur",   "prixKg":3.8                    },
             {"nom":"carotte",           "prixKg":3,                     },
             {"nom":"céleri branche",    "prixKg":3.2,                   },

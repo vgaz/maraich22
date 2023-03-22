@@ -65,12 +65,14 @@ class EvtICS(object):
       
         
 def getEvents(filePath):
-    """ récupère les évenements à partir d'un fichier ics de cultures réalisées"""
+    """Récupération des évenements à partir d'un fichier ics de cultures réalisées"""
     l_evts = [] 
     
     PATERN_PLANCHE = " *([BDHS])([0-9]+)(.[1-8])? *(.*)"
+    PATERN_DESCRIPTION = 'DESCRIPTION.*":(.*)'
    
     paternPlanche = re.compile(PATERN_PLANCHE) 
+    paternDescription = re.compile(PATERN_DESCRIPTION) 
     
     
     #  lecture iCS
@@ -155,7 +157,9 @@ def getEvents(filePath):
                            
             elif s_ligneComplete.startswith("DESCRIPTION:"):
                 s_description = s_ligneComplete.split("DESCRIPTION:")[1]
- 
+            elif s_ligneComplete.startswith("DESCRIPTION;"):    ## nouveau format possible altrep 
+                s_description = s_ligneComplete.split('":',1)[1]
+                
             elif s_ligneComplete.startswith("END:VEVENT"):
                 ## création du ou des évenements ; 1 par location 
                 for s_loc in l_locations:
@@ -341,7 +345,7 @@ def createCSVDistrib(l_evts, myFileName):
             s_legCourant = ""
             s_uniteCourante = ""
             s_completeComment = ""
-            
+   
             for s_ligne in evt.description.split("\n"):
                 
                 s_comment = ""
@@ -384,12 +388,9 @@ def createCSVDistrib(l_evts, myFileName):
                                 except:
                                     s_txtErr = "!!! Pb recup du prixU pour %s"%(s_legCourant)
                                     s_completeComment +=  s_txtErr
-                                    log.warning("!!! pas de prix pour %s le %s" %(s_legCourant, evt.date))
+                                    log.error(s_txtErr)
                                 break
-                            
-                        if not s_prixU:
-                            log.error ("!!! pas de prixU pour %s le %s" %(s_legCourant, evt.date))
-                        
+            
                         if not s_uniteCourante:
                             log.error ("!!! pas d'unité courante pour %s le %s" %(s_legCourant, evt.date))
 
@@ -403,10 +404,13 @@ def createCSVDistrib(l_evts, myFileName):
                         s_txt += '"%s";"%s";"grand";"%s";%s;"%s";%s;"%s";"%s"\n'%(s_jour, evt.date, s_legCourant, (("%.03f")%partGrands).replace(".",","), s_uniteCourante, s_prixU, s_prixG,  s_completeComment)
                 
                 patLegume = paternTotalLegume.match(s_ligne)
+
+
                 if patLegume:
 #                     cptLegs+=1
-                    
                     s_legCourant = patLegume.group(1).strip()
+
+                    
 
                     if patLegume.group(3):
                         s_uniteCourante = patLegume.group(3).lower()
