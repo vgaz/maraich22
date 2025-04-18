@@ -101,9 +101,9 @@ def creationICS(csvFilePath, icsFilePath):
                 
                 ## maj agenda ics pour le semis ou le repiquage
                 if d_serie["delaiPepin_j"]:
-                    evt_nom = "repiquage %s" % (s_nomLeg)
+                    evt_nom = "Todo. repiquage %s" % (s_nomLeg)
                 else:
-                    evt_nom = "semis %s" % (s_nomLeg)
+                    evt_nom = "Todo. semis %s" % (s_nomLeg)
 
                 if d_line.get("lieu") == 'SERRE':
                     s_lieu = "sous serre"
@@ -132,7 +132,7 @@ def creationICS(csvFilePath, icsFilePath):
                         if not evtSup : continue
 #                         print (evtSup.group(1), evtSup.group(2), "jours")
                         evtAutre_date = evt_date + timedelta(days=int(evtSup.group(2)))
-                        ics_txt += ICS_ITEM%( evtSup.group(1) + " pour " + s_nomLeg,
+                        ics_txt += ICS_ITEM%( "Todo. " + evtSup.group(1) + " pour " + s_nomLeg,
                                               "ns:%s"%(d_serie["numSerie"]), 
                                               str(evtAutre_date).split(" ")[0].replace("-","")+"T080000",
                                               str(evtAutre_date).split(" ")[0].replace("-","")+"T090000")                  
