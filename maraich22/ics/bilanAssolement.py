@@ -43,7 +43,7 @@ class EvtICS(object):
         if self.type != self.TYPE_LEG:
             return ""
         else:
-            for d_leg in constant.L_FAMILLES_LEGUMES:
+            for pyleg in constant.L_FAMILLES_LEGUMES:
                 if self.summary.lower().startswith(d_leg["nom"]):
                     return d_leg["nom"]
             raise Exception("ERREUR : %s n'est pas dans la liste des légumes"%self.summary)
@@ -466,8 +466,8 @@ if __name__ == '__main__':
     ###################################
     ## Définition de la période étudiée
     ##
-    s_dateDebut = "1/04/2022"
-    s_dateFin = "30/03/2023"
+    s_dateDebut = "1/01/2018"
+    s_dateFin = "30/04/2023"
     ##
     ###################################
     
@@ -491,8 +491,8 @@ if __name__ == '__main__':
     l_evts = [evt for evt in l_evts if (evt.date > dateDebut and evt.date < dateFin)]
     
     ## Création synthèse des évenements par planche, par légume, par distribution
-    # if True:
-    if False:
+    if True:
+    # if False:
         s_ficSynthese = S_HOMEPATH + "/Cultures/historiqueCultures_%s_%s.txt"%(MyTools.getYMDFromDate(dateDebut), MyTools.getYMDFromDate(dateFin))
         MyTools.strToFic(s_ficSynthese, getTxtEvtsAssolement(l_evts))
 
@@ -500,7 +500,7 @@ if __name__ == '__main__':
         s_cumul = "\n\nCumul des livraisons par légumes du %s au %s\n\n"%(MyTools.getDMYFromDate(dateDebut),MyTools.getDMYFromDate(dateFin))
         for d_leg in constant.L_LEGUMES:
             cumul = getCumul(l_evts, d_leg["nom"])
-            s_cumul += "%s : %.02f %s\n"%(d_leg["nom"], cumul, constant.D_NOM_UNITE_PROD[d_leg["unite"]])
+            s_cumul += "%s : %.02f\n"%(d_leg["nom"], cumul)
         MyTools.strToFic(s_ficSynthese, s_cumul, s_mode="a")
     
   

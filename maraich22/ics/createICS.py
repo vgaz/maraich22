@@ -5,15 +5,14 @@ from datetime import timedelta
 
 # from django.core.management.base import BaseCommand
 # from maraich.models import *
-from settings import log
 import re
+import logging
 
 import MyTools
 
-sys.path.insert(-1, "/home/vincent/Documents/donnees/DIVERS/DeveloppementLogiciel/git/Repo_MyPyTools/MyPyTools")
+sys.path.insert(-1, "/home/vincent/Documents/donnees/DeveloppementLogiciel/git/Repo_MyPyTools/MyPyTools")
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 
 
 ICS_HEAD = """BEGIN:VCALENDAR
@@ -56,7 +55,7 @@ def creationICS(csvFilePath, icsFilePath):
     l_err = []
     
     ## maj variétés, légumes et séries  encodage  "ISO-8859-1"
-    with open(csvFilePath, "r+t", encoding="ISO-8859-1") as hF:
+    with open(csvFilePath, "r+t", encoding="UTF-8") as hF:##ISO-8859-1
         reader = csv.DictReader(hF)
 
         ics_txt = ICS_HEAD
@@ -150,17 +149,18 @@ def creationICS(csvFilePath, icsFilePath):
         except:
             s_err = str(sys.exc_info()[1])
             l_err.append(s_err)
-            log.error(s_err)
+            logging.error(s_err)
 
                     
-        log.info("Fin de création du fichier ics %s \nNombre d'erreurs = %d\n%s"%( icsFilePath,
+        logging.info("Fin de création du fichier ics %s \nNombre d'erreurs = %d\n%s"%( icsFilePath,
                                                                                     len(l_err), 
                                                                                     "\n".join(l_err)))  
 
 
 if __name__ == '__main__':
 
-    s_annee = "2023"
-    creationICS("/home/vincent/Documents/donnees/maraichage/Armorique/lancieux/LaNouvelais/Cultures/%s/csv/planning.%s.csv"%(s_annee, s_annee),
-                "/home/vincent/Documents/donnees/maraichage/Armorique/lancieux/LaNouvelais/Cultures/%s/planning.%s.ics"%(s_annee, s_annee))
+    s_annee = "2025"
+    s_path = "/home/vincent/Documents/donnees/Jardinage"
+    creationICS("%s/%s/planning.%s.csv"%(s_path, s_annee, s_annee),
+                "%s/%s/planning.%s.ics"%(s_path, s_annee, s_annee))
     
